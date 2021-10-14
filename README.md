@@ -1,1 +1,1 @@
-https://veronicavoevodina.github.io/my-cv/cv
+https://veronicavoevodina.github.io/my-cv
