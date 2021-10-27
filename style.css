@@ -2,8 +2,6 @@
 .header-container {
     height: 285px;
    display: flex ;
-   
- 
 }
 .header-image, .header-about-me {
 
@@ -12,12 +10,10 @@
 .header-about-me {
   width:74%;
    
-   
 }
 .header-image {
     width: 26% ;
-    background-color: rgb(236, 82, 90);
-    background-image: url(/images/myPhoto.jpg);
+    background-image: url(images/myPhoto.jpg);
 
 }
 .header-about-me-text-heading {
