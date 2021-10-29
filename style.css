@@ -1,48 +1,42 @@
- /* Reset css */
- *{
-     margin: 0;
-     padding: 0;
- }
-.header-container {
-    height: 200px;
-   /* clear: both;*/
+
+.header_container {
+    height: 285px;
    display: flex ;
-   background-image: url("images/backgroundHeader.jpg");
 }
-.header-image, .header-about-me {
-  /* float: left;*/
-    height: 200px;
+.header_image, .header_about-me {
+
+    height: 285px;
 }
-.header-about-me {
-  width: 80%;
-    background-color: rgb(82, 213, 236);
-    background-image: url("images/backgroundHeader.jpg");
+.header_about-me {
+  width:74%;
+   
 }
-.header-image {
-    overflow: hidden;
-    position: relative;
-    width: 20% ;
-    background-color: rgb(82, 213, 236);
+.header_image {
+    width: 26% ;
+    background-image: url(images/myPhoto.jpg);
+
 }
-.myPhoto {
-  /*margin: -170px 0 -200px 0;*/
-  position: absolute;
-  top: -180px;
-}
-.aboutMe {
+.header_about-me_text_heading {
   text-transform: uppercase;
-  color:rgb(10, 82, 95);
-  text-shadow:
-  1px 1px 1px silver,
-  -1px 1px 1px silver;
+  color: #00C6F9;
+  font-family: 'Poppins';
+  font-style: normal;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  font-size: 18px;
 }
-.text {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(10, 82, 95);
+.header_about-me_text_descr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: #666666;
+  font-size: 16px;
+  padding-top: 16px;
+  line-height: 1.4em;
+  
 }
-.aboutMeText {
-  position: absolute;
-  width: 50%;
-  top: 25px;
-  left: 350px;
+.header_about-me_text {
+  width: 47%;
+  padding: 40px 20px 20px 46px;
+ 
 }
